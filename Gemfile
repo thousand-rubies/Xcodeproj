@@ -17,8 +17,8 @@ group :development do
   gem 'rake', '~> 12.0'
 
   gem 'codeclimate-test-reporter', '~> 0.4.1', :require => nil
-  gem 'rubocop'
-  gem 'danger'
+  gem 'rubocop', '>= 0.49.0'
+  gem 'danger', '>= 6.0.0'
   gem 'simplecov'
 end
 
